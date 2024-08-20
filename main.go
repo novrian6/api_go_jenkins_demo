@@ -7,13 +7,13 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 
-	fmt.Fprintf(w, "Hello, World apa kabar nova")
-	fmt.Fprintf(w, "Baris ini ditulis oleh nova")
+	fmt.Fprintf(w, "Hello, World apa kabar raki")
+	fmt.Fprintf(w, "Baris ini ditulis oleh raki")
 
 }
 
 func main() {
-	port := ":8070"
+	port := ":8071"
 
 	// Print a message indicating the server is starting
 	fmt.Printf("Starting server on port%s\n", port)
