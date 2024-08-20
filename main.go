@@ -6,16 +6,12 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-<<<<<<< HEAD
-
 	fmt.Fprintf(w, "Hello, World apa kabar nova")
 	fmt.Fprintf(w, "Baris ini ditulis oleh nova")
         fmt.Fprintf(w, "Hello, World apa kabar sumar")
         fmt.Fprintf(w, "Baris ini ditulis oleh sumar")
-=======
 	fmt.Fprintf(w, "Hello, World apa kabar raki")
 	fmt.Fprintf(w, "Baris ini ditulis oleh raki")
->>>>>>> bb4de33e813a5665ec59557ad07c13eca47ceefc
 
 }
 
