@@ -7,11 +7,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello, World apa kabar nova")
-	fmt.Fprintf(w, "Baris ini ditulis oleh nova")
-	fmt.Fprintf(w, "Hello, World apa kabar sumar")
-	fmt.Fprintf(w, "Baris ini ditulis oleh sumar")
-	fmt.Fprintf(w, "Hello, World apa kabar raki")
-	fmt.Fprintf(w, "Baris ini ditulis oleh raki")
+	 
 	
 
 }
